@@ -39,7 +39,7 @@ public class DecodeImgThread extends Thread {
             return;
         }
 
-        Bitmap scanBitmap = getBitmap(imgPath, 400, 400);
+        Bitmap scanBitmap = getBitmap(imgPath, 800, 800);
 
         MultiFormatReader multiFormatReader = new MultiFormatReader();
         // 解码的参数
